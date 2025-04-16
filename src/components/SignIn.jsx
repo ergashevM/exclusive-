@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Icon_Google from "@/assets/icon-google.svg";
+import Icon_Google from "@/assets/Icon-Google.svg";
 import LeftImage from "@/assets/LeftImage.svg";
 import Link from "next/link";
 import { signIn } from "next-auth/react";
