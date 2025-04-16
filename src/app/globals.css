@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: "Poppins";
+  --font-inter: "Inter";
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter.ttf");
+}
+
+.whiteIcons:hover {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(93deg)
+    brightness(101%) contrast(101%);
+}
+
+.ps5 {
+  background-image: url(../assets/ps5.svg);
+  background-position: bottom;
+  background-size: 511px;
+  background-repeat: no-repeat;
+}
+.woman {
+  background-image: url(../assets/woman.svg);
+  background-position: right bottom;
+  background-size: 400px;
+  background-repeat: no-repeat;
+}
+
+.speaker {
+  background-image: url(../assets/speaker.svg);
+  background-position: center;
+  background-size: 190px;
+  background-repeat: no-repeat;
+}
+.perfume {
+  background-image: url(../assets/perfume.svg);
+  background-position: center;
+  background-size: 210px;
+  background-repeat: no-repeat;
+}
+
+.emptyBox {
+  background-image: url(../assets/empty.png);
+  background-position: center;
+  background-size: 700px 584px;
+  background-repeat: no-repeat;
+}
+.sale {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(228deg)
+    brightness(102%) contrast(103%);
+  transition: all 0.3s ease;
+}
+
+.group:hover .sale {
+  filter: invert(0%) sepia(7%) saturate(7500%) hue-rotate(306deg)
+    brightness(103%) contrast(109%);
+}
+
+.white-icons-to-black {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(228deg)
+    brightness(102%) contrast(103%);
+}
